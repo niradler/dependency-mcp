@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "dependency-checker": {
+      "command": "npx",
+      "args": ["dependency-mcp"],
+      "env": {}
+    }
+  }
+}
