@@ -592,7 +592,6 @@ class GoHandler extends BaseRegistryHandler {
       }
     } catch (error) {
       // If versions fetch fails, continue with empty versions array
-      console.warn(`Warning: Could not fetch versions for ${packageName}: ${error.message}`);
     }
 
     return this._createSuccessResponse(packageName, 'go', {
