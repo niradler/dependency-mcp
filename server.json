@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.niradler/dependency-mcp",
+  "description": "MCP server for checking package versions across multiple package managers",
+  "repository": {
+    "url": "https://github.com/niradler/dependency-mcp",
+    "source": "github"
+  },
+  "version": "0.0.5",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "dependency-mcp",
+      "version": "0.0.5",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
